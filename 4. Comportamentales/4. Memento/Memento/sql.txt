@@ -1,0 +1,3 @@
+
+Insert into Customer(ID, fname, lname,ccnum)values(1,'robin','robin','1000200030004000');
+Insert into Customer(ID, fname, lname,ccnum)values(2,'bill','bill','1000200030004001');

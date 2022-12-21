@@ -15,19 +15,17 @@ public class MemberTransaction extends Thread {
   public void run() {
     //all members first read the status
     item.getStatus(name);
-
+    
     if (operation.equals("CheckOut")) {
       System.out.println("\n" + name +
                          " is ready to checkout the item.");
       item.checkOut(name);
       try {
-        sleep(1);
+        sleep(1000);
       } catch (InterruptedException e) {
         //
       }
-      System.out.println("ENTRO "+name);
       item.checkIn(name);
-
     }
   }
 }

@@ -41,7 +41,6 @@ public class ReadWriteLock {
     */
 
   public void getWriteLock() {
-    
     synchronized (lockObj) {
       threadsWaitingForWriteLock++;
 

@@ -31,7 +31,5 @@ class FileProcess extends Thread {
 
 			System.out.println(msgLog.charAt(7)+","+tObtener+" \t"+ "," + tRegistrar);
 		}
-		
 	}
-
 }

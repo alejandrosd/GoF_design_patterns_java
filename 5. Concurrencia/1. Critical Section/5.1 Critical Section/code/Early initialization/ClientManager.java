@@ -28,9 +28,8 @@ class FileProcess extends Thread {
 			t3 = System.nanoTime();
 			tObtener = t2-t1; // Tiempo que tardo en obtener el registrador de mensajes
 			tRegistrar = t3-t2; // Tiempo que tardo en escribir el mensaje
-			//System.out.println(tObtener + "\t" + tRegistrar);
+
 			System.out.println(msgLog.charAt(7)+","+tObtener+" \t"+ "," + tRegistrar);
 		}
 	}
-
 }
